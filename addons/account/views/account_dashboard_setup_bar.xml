@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <record id="account_journal_dashboard_kanban_view_js" model="ir.ui.view">
         <field name="name">account.journal.dashboard.kanban.js</field>
         <field name="model">account.journal</field>

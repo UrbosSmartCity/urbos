@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 -
   !python {model: ir.model.data, id: False} : |
       account_id = self.env['account.account'].search([('user_type_id', '=', ref('account.data_account_type_expenses')), ('tag_ids', '=', ref('account_tag_operating'))], limit=1).id

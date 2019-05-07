@@ -1,5 +1,6 @@
 #Accounting tests written in python should extend the class AccountingTestCase.
 #See its doc for more info.
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from . import test_account_customer_invoice
 from . import test_account_move_closed_period

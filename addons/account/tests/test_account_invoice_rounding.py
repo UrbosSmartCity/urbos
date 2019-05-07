@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from odoo.addons.account.tests.account_test_classes import AccountingTestCase
 from odoo.exceptions import ValidationError
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from odoo import api, fields, models, _
 from odoo.osv import expression
 from odoo.tools import float_is_zero, pycompat

@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from odoo.addons.account.tests.account_test_classes import AccountingTestCase
 
 class TestAccountValidateAccount(AccountingTestCase):
