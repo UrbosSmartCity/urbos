@@ -192,12 +192,13 @@
 
 
         <!-- Apps modules -->
+        <!--
         <record model="ir.actions.client" id="modules_act_cl">
             <field name="name">App Store</field>
             <field name="tag">apps</field>
         </record>
         <menuitem id="module_mi" parent="base.menu_management" sequence="10" action="modules_act_cl" groups="base.group_no_one"/>
-
+        -->
         <record model="ir.actions.client" id="modules_updates_act_cl">
             <field name="name">Updates</field>
             <field name="tag">apps.updates</field>

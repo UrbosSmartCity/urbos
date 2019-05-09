@@ -206,6 +206,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 o_setting_box" title="Boost your sales with two kinds of discount programs: promotions and coupon codes. Specific conditions can be set (products, customers, minimum purchase amount, period). Rewards can be discounts (% or amount) or free products.">
+                        <!--
                         <div class="o_setting_left_pane">
                             <field name="module_sale_coupon" widget="upgrade_boolean"/>
                         </div>
@@ -215,6 +216,7 @@
                                 Manage promotion &amp; coupon programs
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
 
@@ -242,6 +244,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--
                     <div class="col-xs-12 col-md-6 o_setting_box" id="ups_provider_setting">
                         <div class="o_setting_left_pane">
                             <field name="module_delivery_ups" widget="upgrade_boolean"/>
@@ -297,6 +301,7 @@
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
 
                 <h2>Invoicing</h2>
