@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <template id="assets_backend" name="gamification assets" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
             <link rel="stylesheet" href="/gamification/static/src/less/gamification.less"/>

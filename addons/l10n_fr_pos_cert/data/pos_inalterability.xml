@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).-->
 <odoo>
 
     <menuitem id="pos_fr_statements_menu" name="French Statements" parent="point_of_sale.menu_point_rep" sequence="9" />

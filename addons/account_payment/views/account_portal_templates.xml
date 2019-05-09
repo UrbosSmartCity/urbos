@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <template id="portal_my_invoices_payment" name="Payment on My Invoices" inherit_id="account.portal_my_invoices">
         <xpath expr="//table[hasclass('o_portal_my_doc_table')]/thead/tr/th[last()]" position="before">
             <th>Status</th>

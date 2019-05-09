@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Chinese (Hong Kong) [zh-hk]
 //! author : Ben : https://github.com/ben-lin

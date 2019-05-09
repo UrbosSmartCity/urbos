@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # -*- coding: utf-8 -*-
 from odoo.models import MetaModel
 from odoo.tests import common

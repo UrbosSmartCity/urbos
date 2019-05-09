@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Portuguese (Brazil) [pt-br]
 //! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira

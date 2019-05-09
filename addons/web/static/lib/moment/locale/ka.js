@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Georgian [ka]
 //! author : Irakli Janiashvili : https://github.com/irakli-janiashvili

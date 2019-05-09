@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Luxembourgish [lb]
 //! author : mweimerskirch : https://github.com/mweimerskirch

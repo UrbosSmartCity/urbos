@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 /*global $, _, PDFJS */
 odoo.define('website_slides.slides', function (require) {
 "use strict";

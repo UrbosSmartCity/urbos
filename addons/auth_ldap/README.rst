@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 Adds support for authentication by LDAP server.
 ===============================================
 This module allows users to login with their LDAP username and password, and

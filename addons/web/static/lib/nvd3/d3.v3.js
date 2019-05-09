@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
+
 !function() {
   var d3 = {
     version: "3.5.6"

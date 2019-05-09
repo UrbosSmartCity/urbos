@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates id="template" xml:space="preserve">
     <t t-name="website.social_modal">
         <div class="modal fade" id="oe_social_share_modal">

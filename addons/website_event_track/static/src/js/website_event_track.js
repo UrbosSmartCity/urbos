@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 odoo.define('website_event_track.website_event_track', function (require) {
 "use strict";
 

@@ -1,4 +1,5 @@
-- 
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+-
   !record {model: stock.location, id: location_order}:
     name: Order Processing
     usage: internal

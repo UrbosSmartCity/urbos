@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 //     Underscore.js 1.8.2
 //     http://underscorejs.org
 //     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors

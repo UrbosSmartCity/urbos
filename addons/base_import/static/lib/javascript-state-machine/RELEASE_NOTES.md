@@ -1,3 +1,6 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
+
 Version 2.1.0 (January 7th 2012)
 --------------------------------
 

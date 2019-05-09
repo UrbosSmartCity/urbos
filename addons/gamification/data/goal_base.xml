@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <!-- Mail template is done in a NOUPDATE block
          so users can freely customize/delete them -->
     <data noupdate="1">

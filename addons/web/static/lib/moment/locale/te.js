@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Telugu [te]
 //! author : Krishna Chaitanya Thota : https://github.com/kcthota

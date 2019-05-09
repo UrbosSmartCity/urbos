@@ -1,3 +1,4 @@
+// License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 // Phantomjs odoo helper
 // jshint evil: true, loopfunc: true
 

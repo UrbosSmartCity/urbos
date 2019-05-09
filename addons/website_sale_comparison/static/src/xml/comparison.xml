@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates id="compare_products" xml:space="preserve">
 
     <t t-name="product_comparison_template">

@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 require.config({
   baseUrl: 'src/js',
   paths: {

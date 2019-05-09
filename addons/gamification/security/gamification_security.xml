@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <data noupdate="1">
 
         <record id="goal_user_visibility" model="ir.rule">

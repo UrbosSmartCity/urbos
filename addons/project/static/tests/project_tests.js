@@ -1,3 +1,5 @@
+// License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 odoo.define('project.project_kanban_tests', function (require) {
 "use strict";
 

@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 #About
 **jQuery Hotkeys** is a plug-in that lets you easily add and remove handlers for keyboard events anywhere in your code supporting almost any key combination.  
 

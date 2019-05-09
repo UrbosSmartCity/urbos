@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from odoo import exceptions
 from odoo.http import Controller, request, route
 from odoo.addons.bus.models.bus import dispatch

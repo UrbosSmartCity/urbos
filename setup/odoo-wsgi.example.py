@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 # WSGI Handler sample configuration file.
 #
 # Change the appropriate settings below, in order to provide the parameters

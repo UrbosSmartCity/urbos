@@ -1,2 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 SUBSYSTEM=="input", GROUP="input", MODE="0660"
 KERNEL=="tty[0-9]*", GROUP="tty", MODE="0660"

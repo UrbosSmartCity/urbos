@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 #!/usr/bin/env bash
 
 logger -t posbox_clear_wifi_configuration "Clearing the wifi configuration"

@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
     <data noupdate="1">
         <record id="stock_warehouse_orderpoint_shop1_cpu1" model="stock.warehouse.orderpoint">

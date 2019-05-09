@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # flasky extensions.  flasky pygments style based on tango style
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \

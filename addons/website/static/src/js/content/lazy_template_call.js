@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 odoo.define('website.content.lazy_template_call', function (require) {
 'use strict';
 

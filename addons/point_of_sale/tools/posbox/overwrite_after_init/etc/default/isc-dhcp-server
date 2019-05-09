@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Defaults for isc-dhcp-server initscript
 # sourced by /etc/init.d/isc-dhcp-server
 # installed at /etc/default/isc-dhcp-server by the maintainer scripts

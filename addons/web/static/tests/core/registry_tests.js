@@ -1,4 +1,5 @@
-odoo.define('web.registry_tests', function (require) {
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
+}odoo.define('web.registry_tests', function (require) {
 "use strict";
 
 var Registry = require('web.Registry');

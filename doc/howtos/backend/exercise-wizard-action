@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 Index: addons/openacademy/views/openacademy.xml
 ===================================================================
 --- addons.orig/openacademy/views/openacademy.xml	2014-08-28 14:34:19.255004611 +0200

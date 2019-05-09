@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 odoo.define('pos_restaurant.printbill', function (require) {
 "use strict";
 

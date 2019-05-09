@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 define([
   'summernote/core/list',
   'summernote/core/agent'

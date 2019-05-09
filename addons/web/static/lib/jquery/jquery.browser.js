@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 (function() {
     /** reimport deprecated $.browser, remove me when jquery.ba-bqq is dropped */
     $.uaMatch = function( ua ) {

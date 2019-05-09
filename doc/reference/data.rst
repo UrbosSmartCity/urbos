@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 :banner: banners/data_files.jpg
 
 .. _reference/data:

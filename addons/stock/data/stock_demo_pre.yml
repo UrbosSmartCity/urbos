@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 -
   !record {model: stock.location, id: stock_location_14}:
     name: Shelf 2

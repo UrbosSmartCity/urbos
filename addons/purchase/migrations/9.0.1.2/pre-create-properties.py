@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 # -*- coding: utf-8 -*-
 
 def convert_field(cr, model, field, target_model):

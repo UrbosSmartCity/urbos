@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : English (New Zealand) [en-nz]
 //! author : Luke McGregor : https://github.com/lukemcgregor

@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # -*- coding: utf-8 -*-
 # taken from http://code.activestate.com/recipes/252524-length-limited-o1-lru-cache-implementation/
 import threading

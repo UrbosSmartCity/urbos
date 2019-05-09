@@ -1,4 +1,6 @@
-- 
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
+-
   Create a warehouse and set it as having a 3-step delivery flow (Pick > Pack > Ship) and a 2-step receipt route
 - 
 -

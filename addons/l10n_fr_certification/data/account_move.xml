@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).-->
 <odoo>
     <record model="ir.actions.server" id="action_check_hash_integrity">
         <field name="name">Data Inalterability Check</field>

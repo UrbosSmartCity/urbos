@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 * Parser
 	since parsing expressions, try with a pratt parser
 	http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/

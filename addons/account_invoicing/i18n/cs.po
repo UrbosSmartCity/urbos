@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # This file contains the translation of the following modules:
 # * account_invoicing
 # 

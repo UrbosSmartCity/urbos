@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <!-- Badge views -->
     <record id="badge_list_action" model="ir.actions.act_window">
         <field name="name">Badges</field>

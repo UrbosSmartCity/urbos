@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 -
   In order to test the sale_mrp module in OpenERP, I start by creating a new product 'Slider Mobile'
 -

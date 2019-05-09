@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 Notes on the usage of the Form View as a sub-widget
 ===================================================
 

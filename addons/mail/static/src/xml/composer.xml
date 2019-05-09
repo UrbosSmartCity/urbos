@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates xml:space="preserve">
 
      <div t-name="mail.ChatComposer" t-attf-class="o_chat_composer #{widget.extended ? 'o_chat_composer_extended' : (widget.notInline ? '' : 'o_chat_inline_composer')} #{widget.isMini ? 'o_chat_mini_composer' : ''}">

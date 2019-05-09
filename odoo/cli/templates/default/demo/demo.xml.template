@@ -1,5 +1,6 @@
 {%- set mod= name|snake -%}
 {%- set model = "%s.%s"|format(mod, mod) -%}
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
     <data>
         <!-- {% for item in range(5) %} -->

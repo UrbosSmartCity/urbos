@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).-->
 <odoo>
         <template id="report_shipping2" inherit_id="stock.report_picking">
             <xpath expr="//th[@name='td_sched_date_h']" position="after">

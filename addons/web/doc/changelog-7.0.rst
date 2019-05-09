@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 API changes from OpenERP Web 6.1 to 7.0
 =======================================
 

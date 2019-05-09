@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from odoo.addons.payment.models.payment_acquirer import ValidationError
 from odoo.addons.payment.tests.common import PaymentAcquirerCommon

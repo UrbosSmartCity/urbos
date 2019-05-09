@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 #!/usr/bin/env bash
 
 CURRENT_WIFI_NETWORK_FILE="/tmp/current_wifi_network.txt"

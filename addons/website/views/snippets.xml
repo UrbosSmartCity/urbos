@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Odoo. See LICENSE file for full copyright and licensing details. -->
 <odoo>
 <template id="s_cover" name="Cover">
     <section class="s_text_block_image_fw oe_img_bg oe_custom_bg" style="background-image: url(/web/image/website.s_cover_default_image); background-position: 50% 100%">

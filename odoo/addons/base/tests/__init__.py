@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from . import test_acl
 from . import test_api
 from . import test_base

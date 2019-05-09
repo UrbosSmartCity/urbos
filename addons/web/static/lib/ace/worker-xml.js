@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 "no use strict";
 ;(function(window) {
 if (typeof window.window != "undefined" && window.document)

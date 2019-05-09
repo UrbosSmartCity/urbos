@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 html[lang] > body.editor_enable [data-oe-translation-state="inprogress"] {
   background: #b7e4ff !important;
 }

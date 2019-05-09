@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
     $(function() {
         "use strict";
         // mergedHead will be turned to true the first time we receive something from a new host

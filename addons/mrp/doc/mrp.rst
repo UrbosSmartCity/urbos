@@ -1,4 +1,6 @@
-MRP 
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
+MRP
 
 In this chapter, we are going to explain briefly how to use mrp in its simplest form (without the mrp operations) and the impact on stock.  We suppose you know the terms used in the warehouse documentation.  
 

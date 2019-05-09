@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 /*!
  * FullCalendar v3.0.1 Google Calendar Plugin
  * Docs & License: http://fullcalendar.io/

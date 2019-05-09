@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 ace.define("ace/theme/monokai",["require","exports","module","ace/lib/dom"], function(require, exports, module) {
 
 exports.isDark = true;

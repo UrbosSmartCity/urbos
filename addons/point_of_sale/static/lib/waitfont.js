@@ -1,3 +1,4 @@
+// License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 // http://stackoverflow.com/questions/4383226/using-jquery-to-know-when-font-face-fonts-are-loaded
 (function(){
     function waitForWebfonts(fonts, callback) {

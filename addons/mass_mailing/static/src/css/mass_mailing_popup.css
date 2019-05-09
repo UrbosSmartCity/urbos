@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 /* Summernote not Support for placeholder text https://github.com/summernote/summernote/issues/581 */
 .editor_enable [data-oe-placeholder]:empty:not(:focus):before {
   content: " \00a0 " attr(data-oe-placeholder);

@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 .. py.js documentation master file, created by
    sphinx-quickstart on Sun Sep  9 19:36:23 2012.
    You can adapt this file completely to your liking, but it should at least

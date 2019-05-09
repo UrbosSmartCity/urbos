@@ -1,4 +1,5 @@
 # #-#-#-#-#  he.po (Odoo 9.0)  #-#-#-#-#
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hw_escpos
@@ -7,6 +8,7 @@
 # Moshe Fam <pashute@gmail.com>, 2016
 # yizhaq agronov <yizhaq@gmail.com>, 2016
 # #-#-#-#-#  he.po (Odoo 9.0)  #-#-#-#-#
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hw_escpos

@@ -1,3 +1,5 @@
+// License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 // Preferences to allow unattended install of R-Kiosk extension
 // Needed for Odoo posbox Client display
 pref("app.update.checkInstallTime", false);

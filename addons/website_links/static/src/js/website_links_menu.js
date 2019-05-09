@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 /* The purpose of this script is to copy the current URL of the website
  * into the URL form of the URL shortener (module website_links) 
  * when the user click the link "Share this page" on top of the page.

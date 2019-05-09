@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # HG changeset patch
 # Parent c3619e60d819e746dcaae49a99d7ca1f4c58593c
 diff -r c3619e60d819 -r 957395d27f63 academy/models.py

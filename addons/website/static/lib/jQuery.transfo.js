@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 /*
 Copyright (c) 2014 Christophe Matthieu,
 

@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
+
 jasmine.HtmlReporterHelpers = {};
 
 jasmine.HtmlReporterHelpers.createDom = function(type, attrs, childrenVarArgs) {

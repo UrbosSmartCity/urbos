@@ -1,3 +1,4 @@
+#License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 test_empty_find (odoo.addons.web.tests.test_dataset.TestDataSetController) ... ok
 test_ids_shortcut (odoo.addons.web.tests.test_dataset.TestDataSetController) ... ok
 test_regular_find (odoo.addons.web.tests.test_dataset.TestDataSetController) ... ok

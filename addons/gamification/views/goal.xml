@@ -1,4 +1,5 @@
 <odoo>
+    <!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <!-- Goal views -->
     <record id="goal_list_action" model="ir.actions.act_window">
         <field name="name">Goals</field>

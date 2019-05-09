@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 /**
     Homemade helper for browsing PDF document from page to page.
     This is hightly inspired from https://github.com/mozilla/pdf.js/blob/master/examples/learning/prevnext.html

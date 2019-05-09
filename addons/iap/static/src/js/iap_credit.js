@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 odoo.define('iap.redirect_odoo_credit_widget', function(require) {
 "use strict";
 

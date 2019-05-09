@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Cambodian [km]
 //! author : Kruy Vanna : https://github.com/kruyvanna

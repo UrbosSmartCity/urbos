@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
     <!-- Account Types -->
     <record id="account_account_type_EGP_NA_080" model="account.account.type"><field name="name">(+/-) Variación de Envases y Embalajes</field></record>

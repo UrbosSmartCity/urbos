@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, Text, \
     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal

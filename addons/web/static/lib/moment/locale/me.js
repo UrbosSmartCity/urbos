@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Montenegrin [me]
 //! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac

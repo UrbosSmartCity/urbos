@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 # Quick notes about binary CMap format (bcmap)
 
 The format is designed to package some information from the CMap files located at external/cmap. Please notice for size optimization reasons, the original information blocks can be changed (split or joined) and items in the blocks can be swaped.

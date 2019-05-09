@@ -1,4 +1,5 @@
 # #-#-#-#-#  pt_BR.po (Odoo 9.0)  #-#-#-#-#
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * l10n_be_invoice_bba
@@ -6,6 +7,7 @@
 # Translators:
 # Mateus Cerqueira Lopes <mateus1@gmail.com>, 2015
 # #-#-#-#-#  pt_BR.po (Odoo 9.0)  #-#-#-#-#
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * l10n_be_invoice_bba

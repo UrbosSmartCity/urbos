@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 OGONE_ERROR_MAP = {
     '0020001001': "Authorization failed, please retry",

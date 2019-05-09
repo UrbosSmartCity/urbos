@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from __future__ import print_function
 import base64
 import copy

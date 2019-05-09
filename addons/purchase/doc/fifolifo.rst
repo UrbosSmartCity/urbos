@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 FIFO/LIFO
 
 In order to activate FIFO/LIFO, the costing method in the product form should be fifo/lifo.  This is only possible when cost methods are checked under Settings > Purchase

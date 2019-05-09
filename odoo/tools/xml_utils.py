@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # -*- coding: utf-8 -*-
 from lxml import etree
 from odoo.tools.misc import file_open

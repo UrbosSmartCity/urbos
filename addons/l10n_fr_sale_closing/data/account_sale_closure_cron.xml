@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).-->
 <odoo>
     <record model="ir.cron" id="account_sale_closing_daily">
         <field name="name">Generate Daily Sales Closing</field>

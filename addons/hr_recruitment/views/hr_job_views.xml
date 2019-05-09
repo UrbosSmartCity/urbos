@@ -1,5 +1,5 @@
 <odoo>
-
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
     <record model="ir.actions.act_window" id="action_hr_job_new_application">
         <field name="name">New Application</field>
         <field name="res_model">hr.applicant</field>

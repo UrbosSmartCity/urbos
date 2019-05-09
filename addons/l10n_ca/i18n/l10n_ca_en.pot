@@ -1,4 +1,5 @@
-# Translation of OpenERP Server. 
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+# Translation of OpenERP Server.
 # This file contains the translation of the following modules: 
 #	* l10n_ca 
 # 

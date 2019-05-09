@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).-->
 <odoo>
     <record id="view_general_fr_inalterability_inherit_config" model="ir.ui.view">
         <field name="name">Inalterability settings</field>

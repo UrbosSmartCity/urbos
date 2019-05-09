@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # HG changeset patch
 # Parent 139dae60de67efa0017f5032f71ab774685c5507
 diff --git a/__manifest__.py b/__manifest__.py

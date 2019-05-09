@@ -1,4 +1,4 @@
-
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 (function(window){
 
     // this serves as the end of an edge when creating a link

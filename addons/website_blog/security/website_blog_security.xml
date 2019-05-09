@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Part of Odoo. See LICENSE file for full copyright and licensing details. -->
 <odoo>
     <record model="ir.rule" id="website_blog_post_public">
         <field name="name">Blog Post: public: published only</field>

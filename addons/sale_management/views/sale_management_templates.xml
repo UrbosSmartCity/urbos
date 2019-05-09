@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
         <!-- inherits from sales_team.assets_backend to override certain attributes defined in sales_team -->
         <template id="assets_backend" name="project assets" inherit_id="sales_team.assets_backend">

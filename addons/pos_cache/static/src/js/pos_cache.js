@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
+
 odoo.define('pos_cache.pos_cache', function (require) {
 "use strict";
 

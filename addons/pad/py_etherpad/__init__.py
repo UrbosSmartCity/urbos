@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 """Module to talk to EtherpadLite API."""
 import requests
 import logging

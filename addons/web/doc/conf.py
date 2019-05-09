@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 #
 # OpenERP Technical Documentation configuration file, created by
 # sphinx-quickstart on Fri Feb 17 16:14:06 2012.

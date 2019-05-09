@@ -1,2 +1,3 @@
+#License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 sphinx>=1.2
 sphinx-patchqueue>=1.0

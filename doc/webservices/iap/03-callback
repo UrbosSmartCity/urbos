@@ -1,3 +1,4 @@
+#License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 Index: coalroller/coalroller/__init__.py
 ===================================================================
 --- coalroller.orig/coalroller/__init__.py

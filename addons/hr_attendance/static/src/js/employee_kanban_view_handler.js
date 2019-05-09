@@ -1,4 +1,4 @@
-
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 odoo.define('hr_attendance.employee_kanban_view_handler', function(require) {
 "use strict";
 

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
     <template id="report_delivery_document_inherit_sale_stock" inherit_id="stock.report_delivery_document">
         <xpath expr="//div[@name='customer_address']" position="after">

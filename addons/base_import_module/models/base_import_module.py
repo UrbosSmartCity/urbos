@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 import base64
 from io import BytesIO
 from odoo import api, fields, models

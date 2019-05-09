@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 from odoo.addons.stock.tests.common2 import TestStockCommon
 

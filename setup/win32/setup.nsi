@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 # TODO: Avoid to uninstall the database

@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # HG changeset patch
 # Parent 72d9d59a93fcee06ba28cf0b98a1075331dcc8f4
 diff --git a/static/src/css/web_example.css b/static/src/css/web_example.css

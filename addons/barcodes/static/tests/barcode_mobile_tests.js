@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 odoo.define('barcodes.barcode_mobile_tests', function () {
     "use strict";
 

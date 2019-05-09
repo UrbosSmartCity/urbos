@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 import odoo.tests
 
 class TestUi(odoo.tests.HttpCase):

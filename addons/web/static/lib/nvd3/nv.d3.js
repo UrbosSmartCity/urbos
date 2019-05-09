@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 /* nvd3 version 1.8.2-dev (https://github.com/novus/nvd3) 2016-02-08 */
 (function(){
 

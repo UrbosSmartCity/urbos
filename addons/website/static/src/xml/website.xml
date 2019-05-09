@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates id="template" xml:space="preserve">
     <t t-name="website.prompt">
         <div class="modal o_technical_modal" tabindex="-1" role="dialog" aria-hidden="true">

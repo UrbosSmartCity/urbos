@@ -1,3 +1,6 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
+
 .. _stage_status:
 
 Stage and Status

@@ -1,4 +1,4 @@
-
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). */
 (function(window){
     
     // A Javascript 2D vector library

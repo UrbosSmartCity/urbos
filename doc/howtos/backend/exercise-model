@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # HG changeset patch
 # Parent e3bb12713a6d38c28f50d46e8c1bab74ac40c1be
 Index: addons/openacademy/models.py

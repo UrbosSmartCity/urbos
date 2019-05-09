@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
       <record id="brand_abarth" model="fleet.vehicle.model.brand">
       	<field name="name">Abarth</field>

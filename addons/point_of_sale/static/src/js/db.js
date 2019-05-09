@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
+
 odoo.define('point_of_sale.DB', function (require) {
 "use strict";
 

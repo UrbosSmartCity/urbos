@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Galician [gl]
 //! author : Juan G. Hurtado : https://github.com/juanghurtado

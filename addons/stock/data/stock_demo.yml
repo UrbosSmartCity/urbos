@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 -
   !python {model: ir.model.data, id: False}: |
     chicago_warehouse = self.env['stock.warehouse'].browse(ref('stock_warehouse_shop0'))

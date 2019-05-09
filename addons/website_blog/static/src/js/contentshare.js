@@ -1,3 +1,4 @@
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
 (function(){
     $.fn.share = function(options) {
         var option = $.extend($.fn.share.defaults,options);

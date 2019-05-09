@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 """
 Defines a "raw HTML" domain with a ``div[classes]`` and a number of roles

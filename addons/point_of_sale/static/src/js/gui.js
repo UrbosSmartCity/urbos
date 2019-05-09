@@ -1,3 +1,5 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
+
 odoo.define('point_of_sale.gui', function (require) {
 "use strict";
 // this file contains the Gui, which is the pos 'controller'. 

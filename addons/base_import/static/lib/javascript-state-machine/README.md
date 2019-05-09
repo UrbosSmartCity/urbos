@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 Javascript Finite State Machine (v2.1.0)
 ========================================
 

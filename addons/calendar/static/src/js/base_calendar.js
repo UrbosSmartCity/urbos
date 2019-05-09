@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 odoo.define('base_calendar.base_calendar', function (require) {
 "use strict";
 

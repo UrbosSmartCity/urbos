@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 {
     'name': "Sparse Fields",
     'summary': """Implementation of sparse fields.""",

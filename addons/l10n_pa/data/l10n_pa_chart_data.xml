@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <odoo>
     <record id="account_account_type_NCLASIFICADO" model="account.account.type">
         <field name="name">Cuentas No Clasificadas</field>

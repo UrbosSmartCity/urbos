@@ -1,3 +1,4 @@
+// License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 function subst() {
     var vars = {};
     var x = document.location.search.substring(1).split('&');

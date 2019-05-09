@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # HG changeset patch
 # Parent c687289c105fe855f799a1e5b498382edbd80cb3
 diff -r c687289c105f -r 1012f1736bb6 academy/views.xml

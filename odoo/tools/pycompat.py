@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 # -*- coding: utf-8 -*-
 # to remove if we decide to add a dependency on six or future
 # very strongly inspired by https://github.com/pallets/werkzeug/blob/master/werkzeug/_compat.py

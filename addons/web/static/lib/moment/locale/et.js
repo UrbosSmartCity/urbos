@@ -1,3 +1,4 @@
+/* License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).*/
 //! moment.js locale configuration
 //! locale : Estonian [et]
 //! author : Henry Kehlmann : https://github.com/madhenry

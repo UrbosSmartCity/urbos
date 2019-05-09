@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 #!/bin/sh
 set -e
 python3 setup.py install --prefix=/usr --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES --install-lib usr/lib/python3.6/site-packages/

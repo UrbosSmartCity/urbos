@@ -1,3 +1,5 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 -   |
     YAML Import reference scenario:
     Check that importing into a "reference" type field works with YAML using

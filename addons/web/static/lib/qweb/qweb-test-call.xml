@@ -1,3 +1,4 @@
+<!-- License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
 <templates>
     <t t-name="_basic-callee">ok</t>
     <t t-name="_callee-printsbody"><t t-esc="0"/></t>

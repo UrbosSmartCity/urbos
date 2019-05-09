@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 from . import pygments_override
 from . import switcher
 from . import translator

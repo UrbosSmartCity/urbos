@@ -1,3 +1,5 @@
+License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
+
 :banner: banners/testing_modules.jpg
 
 .. _reference/testing:

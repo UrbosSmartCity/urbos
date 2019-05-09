@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 Index: addons/openacademy/models.py
 ===================================================================
 --- addons.orig/openacademy/models.py	2014-08-27 10:34:08.531934946 +0200

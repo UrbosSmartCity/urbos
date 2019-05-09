@@ -1,3 +1,4 @@
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 Index: addons/openacademy/wizard.py
 ===================================================================
 --- addons.orig/openacademy/wizard.py	2014-08-28 14:34:07.879004780 +0200

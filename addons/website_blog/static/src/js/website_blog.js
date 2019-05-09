@@ -1,3 +1,4 @@
+// Part of Odoo. See LICENSE file for full copyright and licensing details.
 odoo.define('website_blog.website_blog', function (require) {
 "use strict";
 
