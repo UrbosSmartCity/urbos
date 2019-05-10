@@ -13,6 +13,7 @@
             <xpath expr="//div[hasclass('settings')]" position="inside">
                 <div class="app_settings_block" data-string="Timesheets" string="Timesheets" data-key="hr_timesheet" groups="hr_timesheet.group_timesheet_manager">
                     <h2>Timesheet Apps</h2>
+                    <!--
                     <div class="row mt16 o_settings_container">
                         <div class="col-xs-12 col-md-6 o_setting_box">
                             <div class="o_setting_left_pane">
@@ -25,7 +26,6 @@
                                 </div>
                                 <div class="content-group">
                                     <div class="row mt16 oe_center">
-                                        <!--
                                         <div class="col-md-4">
                                             <a href="http://www.odoo.com/page/timesheet?platform=chrome">
                                                 <img alt="Google Chrome Store" class="img img-responsive" src="project/static/src/img/chrome_store.png"/>
@@ -41,12 +41,12 @@
                                                 <img alt="Google Play Store" class="img img-responsive" src="project/static/src/img/play_store.png"/>
                                             </a>
                                         </div>
-                                        -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    -->
                     <h2>Billing</h2>
                     <div name="timesheet_billing" class="row mt16 o_settings_container" title="Sell services (e.g. project, maintenance), record time spent using Timesheets app and invoice them based on a fixed price (ordered quantity) or on the time spent (delivered quantity)">
                         <div class="col-xs-12 col-md-6 o_setting_box">
