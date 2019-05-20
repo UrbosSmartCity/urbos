@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="myTemplate2" xml:space="preserve">
+    <t t-extend="XmlReceipt">
+        <t t-jquery="t[t-esc='line.price']" t-operation="replace">
+            <h1>hell<h1><t t-esc='line.price_with_tax / line.quantity ' />
+        </t>
+    </t>
+</templates>
