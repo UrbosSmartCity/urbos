@@ -1,4 +1,3 @@
-[Page, ](https://urbos.io)
 [Wiki, ](https://wiki.urbos.io)
 [Tile Server](https://osm.urbos.io)
 
