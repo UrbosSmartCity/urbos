@@ -12,13 +12,13 @@ How to Install
 -------------------------
 
 clone this repo.
-`
+```
 $ git clone https://github.com/ajsifontes/urbos.git
-`
+```
 install all dependencies of python3
-``
+```
 $ pip install requeriments.txt
-``
+```
 create config file on th root directory based debian odoo.conf 
 ```
 $ cp debian/odoo.conf odoo.conf
