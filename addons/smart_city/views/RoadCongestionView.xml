@@ -1,0 +1,30 @@
+<odoo>
+  <data>
+    <record id="Roads" model="ir.actions.act_window">
+      <field name="name">Roads</field>
+      <field name="res_model">roads</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,map,form</field>
+    </record>
+
+    <record id="congested_map_view" model="ir.ui.view">
+      <field name="name">Roads</field>
+      <field name="model">roads</field>
+      <field name="arch" type="xml">
+          <map fieldLevel="levelCongestion"></map>
+      </field>
+    </record>
+
+    <record id="congested_tree_view" model="ir.ui.view">
+      <field name="name">Roads</field>
+      <field name="model">roads</field>
+      <field name="arch" type="xml">
+          <tree>
+            <field name="id"/>
+            <field name="levelCongestion"/>
+          </tree>
+      </field>
+    </record>
+
+  </data>
+</odoo>

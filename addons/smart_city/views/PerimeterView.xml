@@ -1,0 +1,34 @@
+<odoo>
+  <data>
+
+    <record id="Perimeterss" model="ir.actions.act_window">
+      <field name="name">Perimeter</field>
+      <field name="res_model">perimeter</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="perimeter_tree_view" model="ir.ui.view">
+      <field name="name">Perimeters</field>
+      <field name="model">perimeter</field>
+      <field name="arch" type="xml">
+          <tree>
+            <field name="id"/>
+            <field name="name"/>
+          </tree>
+      </field>
+    </record>
+
+    <record id="perimeter_form_view" model="ir.ui.view">
+      <field name="name">Perimeters</field>
+      <field name="model">perimeter</field>
+      <field name="arch" type="xml">
+          <form>
+              <field name="name"/>
+              <field name="points"/>
+          </form>
+      </field>
+    </record>
+
+  </data>
+</odoo>

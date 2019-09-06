@@ -1,0 +1,33 @@
+<odoo>
+
+  <data>
+    <record id="WindSpeed" model="ir.actions.act_window">
+      <field name="name">Wind Speed</field>
+      <field name="res_model">wind_speed</field>
+      <field name="view_mode">tree,map,form</field>
+    </record>
+
+    <record id="wS_tree_view" model="ir.ui.view">
+      <field name="name">Wind Speed</field>
+      <field name="model">wind_speed</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="id"/>
+          <field name="speed"/>
+          <field name="levelSpeed" widget="progressbar"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="windS_map_view" model="ir.ui.view">
+      <field name="name">Wind Speed</field>
+      <field name="model">wind_speed</field>
+      <field name="arch" type="xml">
+        <map fieldLevel="levelSpeed">
+        <field name="speed"/>
+      </map>
+      </field>
+    </record>
+
+  </data>
+</odoo>

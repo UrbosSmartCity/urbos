@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+
+    <record id="AirQuality" model="ir.actions.act_window">
+      <field name="name">Air Quality</field>
+      <field name="res_model">air_quality</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,map,form</field>
+    </record>
+
+    <record id="aQ_tree_view" model="ir.ui.view">
+      <field name="name">Air Quality</field>
+      <field name="model">air_quality</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="id"/>
+          <field name="levelQuality"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="aQ_map_view" model="ir.ui.view">
+      <field name="name">Air Quality</field>
+      <field name="model">air_quality</field>
+      <field name="arch" type="xml">
+        <map fieldLevel="levelQuality"></map>
+      </field>
+    </record>
+
+  </data>
+</odoo>

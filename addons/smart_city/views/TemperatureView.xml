@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+
+    <record id="Temperature" model="ir.actions.act_window">
+      <field name="name">Temperature</field>
+      <field name="res_model">temperature</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,map,form</field>
+    </record>
+
+    <record id="temperature_tree_view" model="ir.ui.view">
+      <field name="name">Temperature</field>
+      <field name="model">temperature</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="id"/>
+          <field name="levelTemperature"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="temperature_map_view" model="ir.ui.view">
+      <field name="name">Temperature</field>
+      <field name="model">temperature</field>
+      <field name="arch" type="xml">
+        <map fieldLevel="levelTemperature"></map>
+      </field>
+    </record>
+
+  </data>
+</odoo>

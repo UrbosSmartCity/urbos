@@ -1,0 +1,37 @@
+<odoo>
+  <data>
+
+    <record id="Pointss" model="ir.actions.act_window">
+      <field name="name">Point</field>
+      <field name="res_model">points</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="points_tree_view" model="ir.ui.view">
+      <field name="name">Points</field>
+      <field name="model">points</field>
+      <field name="arch" type="xml">
+          <tree>
+            <field name="id"/>
+            <field name="lat"/>
+            <field name="lng"/>
+          </tree>
+      </field>
+    </record>
+
+    <record id="points_form_view" model="ir.actions.act_window">
+      <field name="name">Point</field>
+      <field name="res_model">points</field>
+      <field name="arch" type="xml">
+        <form>
+          <page>
+            <field name="lat"/>
+            <field name="lng"/>
+          </page>
+        </form>
+      </field>
+    </record>
+
+  </data>
+</odoo>
