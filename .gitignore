@@ -42,3 +42,5 @@ setup/win32/static/postgresql*.exe
 #files
 testOpenTI.conf
 devOpenTI.conf
+testOpenTI.log
+devOpenTI.log
