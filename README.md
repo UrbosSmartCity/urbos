@@ -14,10 +14,18 @@ clone this repo.
 ```
 $ git clone https://github.com/ajsifontes/urbos.git
 ```
+enter to folder
+````
+$ cd urbos
+````
 install all dependencies of python3
 ```
 $ pip install requeriments.txt
 ```
+install npm dependencies
+````
+$ npm install -g addons/web/package.json
+````
 create config file on th root directory based debian odoo.conf 
 ```
 $ cp debian/odoo.conf odoo.conf
