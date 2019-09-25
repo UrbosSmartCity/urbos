@@ -12,8 +12,15 @@ class AirQuality(models.Model):
     cO = fields.Integer(string="Carbon Monoxide")
     nO2 = fields.Integer(string="Nitrogen Dioxide")
     o3 = fields.Integer(string="Ozone")
+    point = fields.GeoPoint(index="True")
     perimeters = fields.Many2one('perimeter',string='Set of Points')
     levelQuality = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level Quality",compute="_getLevelQuality")
+    test = fields.Char(compute="get_point")
+
+    @api.one
+    @api.depends('point')
+    def gep_point(self):
+        self.test = self.point
 
     @api.one
     @api.depends('pM10','pM2_5','sO2','cO','nO2','o3')

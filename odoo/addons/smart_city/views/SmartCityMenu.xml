@@ -6,7 +6,7 @@
     <!--Sub menus -->
     <menuitem id="settings_smart" name="Settings" parent="smart" sequence="25"/>
 
-    <menuitem id="roads" name="Congestion" parent="smart" sequence="10" action="Roads"/>
+    <menuitem id="congestion" name="Congestion" parent="smart" sequence="10" action="Congestion"/>
 
     <menuitem id="air_quality" name="Air Quality" parent="smart" action="AirQuality" sequence="9"/>
 

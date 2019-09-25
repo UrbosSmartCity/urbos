@@ -14,7 +14,7 @@
       <field name="arch" type="xml">
           <tree>
             <field name="id"/>
-            <field name="name"/>
+            <field name="noun"/>
           </tree>
       </field>
     </record>
@@ -24,10 +24,75 @@
       <field name="model">perimeter</field>
       <field name="arch" type="xml">
           <form>
-              <field name="name"/>
-              <field name="points"/>
+            <sheet>
+              <group>
+                <field name="noun"/>
+              </group>
+              <notebook>
+                <page string="Perimeter">
+                  <field name="area" widget="geo_edit_map"/>
+                </page>
+              </notebook>
+            </sheet>
           </form>
       </field>
+    </record>
+
+    <!-- GeoEngine views -->
+    <record id="ir_ui_view_perimeterView" model="ir.ui.view">
+      <field name="name">Perimeter</field>
+      <field name="arch" type="xml">
+        <geoengine version="7.0">
+          <field name="noun"/>
+          <field name="area"/>
+          <field name="total_sensors"/>
+        </geoengine>
+      </field>
+      <field eval="16" name="priority"/>
+      <field name="model">perimeter</field>
+    </record>
+    <record id="geoengine_vector_layer_basictest0" model="geoengine.vector.layer">
+      <field name="geo_field_id" ref="smart_city.field_perimeter__area"/>
+      <field name="name">Basic Perimeter</field>
+      <field name="view_id" ref="ir_ui_view_perimeterView"/>
+      <field name="geo_repr">basic</field>
+      <field name="attribute_field_id" ref="field_perimeter__noun"/>
+      <field name="begin_color">#FF680A</field>
+    </record>
+    <record id="geoengine_vector_layer_coloredrangetest0" model="geoengine.vector.layer">
+      <field name="geo_field_id" ref="smart_city.field_perimeter__area"/>
+      <field name="name">Colored range perimeter</field>
+      <field name="classification">unique</field>
+      <field eval="6" name="sequence"/>
+      <field name="view_id" ref="ir_ui_view_perimeterView"/>
+      <field name="geo_repr">colored</field>
+      <field eval="1" name="nb_class"/>
+      <field name="attribute_field_id" ref="smart_city.field_perimeter__total_sensors"/>
+      <field name="begin_color">#FF680A</field>
+    </record>
+    <record id="geoengine_vector_layer_coloredrangezipquantile0" model="geoengine.vector.layer">
+      <field name="geo_field_id" ref="smart_city.field_perimeter__area"/>
+      <field name="name">Colored range ZIP Eq Interval</field>
+      <field name="classification">interval</field>
+      <field eval="6" name="sequence"/>
+      <field name="view_id" ref="ir_ui_view_perimeterView"/>
+      <field name="geo_repr">colored</field>
+      <field eval="4" name="nb_class"/>
+      <field name="attribute_field_id" ref="smart_city.field_perimeter__total_sensors"/>
+      <field name="begin_color">#FF680A</field>
+      <field name="end_color">#00680A</field>
+    </record>
+    <record id="geoengine_raster_layer_test0" model="geoengine.raster.layer">
+      <field name="raster_type">osm</field>
+      <field name="name">Perimeter OSM</field>
+      <field name="view_id" ref="ir_ui_view_perimeterView"/>
+      <field eval="0" name="overlay"/>
+    </record>
+    <record id="geoengine_raster_layer_osm0" model="geoengine.raster.layer">
+      <field name="raster_type">osm</field>
+      <field name="name">Perimeter OSM Light</field>
+      <field name="view_id" ref="ir_ui_view_perimeterView"/>
+      <field eval="1" name="overlay"/>
     </record>
 
   </data>

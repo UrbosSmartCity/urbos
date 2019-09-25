@@ -13,10 +13,10 @@ class WindSpeed(models.Model):
     _name = 'wind_speed'
     _description = 'Wind Velocity'
 
-    name = fields.Char('Nombre', required=True)
     speed = fields.Integer(string="Wind Speed (Km/h)")
     levelSpeed = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level of Wind Speed",compute="_getLevelWindSpeed")
     perimeters = fields.Many2one('perimeter',string='Set of Points')
+    point = fields.GeoPoint(index="True")
 
     @api.one
     @api.depends('speed')

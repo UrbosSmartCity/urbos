@@ -24,11 +24,6 @@
       <field name="model">camera</field>
       <field name="arch" type="xml">
           <form>
-            <header>
-              <button type="camera" name="countVehicles"
-                      string="Keep Vehicles Quantity"
-              class="btn-primary" />
-            </header>
             <group>
               <field name="ip"/>
               <field name="model"/>

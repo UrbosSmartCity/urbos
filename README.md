@@ -26,13 +26,13 @@ install npm dependencies
 ````
 $ npm install -g addons/web/package.json
 ````
-create config file on th root directory based debian odoo.conf 
+create config file on th root directory based debian odoo.conf
 ```
-$ cp debian/odoo.conf odoo.conf
+$ cp debian/urbos.conf urbos.conf
 ```
 run the next commad
 ````
-$ python3 odoo-bin -c odoo.conf
+$ python3 odoo-bin -c urbos.conf
 ````
 
 

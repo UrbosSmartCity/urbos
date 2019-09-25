@@ -1,8 +1,8 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_points,smart_city_points,model_points,base.group_user,1,1,1,1
 access_air_quality,smart_city_air_quality,model_air_quality,base.group_user,1,1,1,1
-access_roads,smart_city_roads,model_roads,base.group_user,1,1,1,1
+access_congestion,smart_city_congestion,model_congestion,base.group_user,1,1,1,1
 access_temperature,smart_city_temperature,model_temperature,base.group_user,1,1,1,1
-access_wind_sepeed,smart_city_wind_speed,model_wind_speed,base.group_user,1,1,1,1
+access_wind_speed,smart_city_wind_speed,model_wind_speed,base.group_user,1,1,1,1
 access_camera,smart_city_camera,model_camera,base.group_user,1,1,1,1
 access_perimeter,smart_city_perimeter,model_perimeter,base.group_user,1,1,1,1

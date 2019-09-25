@@ -10,6 +10,7 @@ class Temperature(models.Model):
     farenheitDegrees = fields.Integer(string="Farenheit Degrees")
     levelTemperature = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level of Temperature",compute="_getLevelTemperature")
     perimeters = fields.Many2one('perimeter',string='Set of Points')
+    point = fields.GeoPoint(index="True")
 
     @api.one
     @api.depends('farenheitDegrees')
