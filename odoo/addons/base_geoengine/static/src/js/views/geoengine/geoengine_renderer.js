@@ -77,7 +77,7 @@ odoo.define('base_geoengine.GeoengineRenderer', function (require) {
                 }
                 if (Object.prototype.hasOwnProperty.call(fields, key)) {
                     var field = fields[key];
-                    var span = _createFieldSpan(field, key);
+                    var span = _createFieldSpan(field, a[key]);
                     // ID field to put on first position
                     if (key === 'id') {
                         oid = span;
@@ -209,7 +209,9 @@ odoo.define('base_geoengine.GeoengineRenderer', function (require) {
                     target: 'olmap',
                     view: new ol.View({
                         center: [0, 0],
-                        zoom: 2,
+                        zoom: 4,
+                        maxZoom:19,
+                        minZoom:3
                     }),
                     controls: ol.control.defaults().extend([
                         new ol.control.FullScreen(),
@@ -641,7 +643,6 @@ odoo.define('base_geoengine.GeoengineRenderer', function (require) {
             // Zoom to data extent
             if (data.length) {
                 var extent = vectorLayers[0].getSource().getExtent();
-                console.log(extent);
                 this.zoomToExtentCtrl.extent_ = extent;
                 this.zoomToExtentCtrl.changed();
 

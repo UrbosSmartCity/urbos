@@ -19,7 +19,7 @@ div.olmap {
 .olmap svg{
     width: initial;
     height: initial;
-    
+
 }
 
 .olmap:-moz-full-screen {
@@ -124,6 +124,9 @@ div.ol-clear {
     height: 500px;
 }
 
+/*
+* Begin Popup Base
+*/
 .ol-popup {
     position: absolute;
     background-color: white;
@@ -178,3 +181,6 @@ div.ol-clear {
 .ol-popup-closer:after {
     content: "✖";
 }
+/*
+* End base
+*/

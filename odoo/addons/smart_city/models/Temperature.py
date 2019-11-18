@@ -6,9 +6,11 @@ class Temperature(models.Model):
     _name = 'temperature'
     _description = 'Temperature'
 
-    name = fields.Char('Nombre', required=True)
     farenheitDegrees = fields.Integer(string="Farenheit Degrees")
-    levelTemperature = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level of Temperature",compute="_getLevelTemperature")
+    levelTemperature = fields.Selection([
+        (1,'Low'),
+        (2,'Medium'),
+        (3,'High')],string="Level of Temperature",compute="_getLevelTemperature",store=True)
     perimeters = fields.Many2one('perimeter',string='Set of Points')
     point = fields.GeoPoint(index="True")
 

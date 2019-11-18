@@ -122,8 +122,8 @@ odoo.define('base_geoengine.BackgroundLayers', function (require) {
                                 title: l.name,
                                 visible: !l.overlay,
                                 type: 'base',
-                                source: new ol.source.OSM({
-                                  url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+                                source: new ol.source.XYZ({
+                                  url: 'https://osm.urbos.io/osm/{z}/{x}/{y}.png'
                                 }),
                             })
                         );

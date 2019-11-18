@@ -14,7 +14,10 @@ class WindSpeed(models.Model):
     _description = 'Wind Velocity'
 
     speed = fields.Integer(string="Wind Speed (Km/h)")
-    levelSpeed = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level of Wind Speed",compute="_getLevelWindSpeed")
+    levelSpeed = fields.Selection([
+        (1,'Low'),
+        (2,'Medium'),
+        (3,'High')],string="Level of Wind Speed",compute="_getLevelWindSpeed",store=True)
     perimeters = fields.Many2one('perimeter',string='Set of Points')
     point = fields.GeoPoint(index="True")
 

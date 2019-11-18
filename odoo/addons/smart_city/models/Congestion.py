@@ -6,10 +6,19 @@ class Congestion(models.Model):
     _name = 'congestion'
     _description = 'Congestion in the Roads'
 
-    channelWidth = fields.Selection([(1,'One'),(2,'Two'),(3,'Three'),(4,'Four'),(5,'Five'),(6,'Six')],string="Channel Width")
+    channelWidth = fields.Selection([
+        (1,'One'),
+        (2,'Two'),
+        (3,'Three'),
+        (4,'Four'),
+        (5,'Five'),
+        (6,'Six')],string="Channel Width")
     numberVehicles = fields.Integer(string="Number of Vehicles")
     vehiclesVelocity = fields.Integer(string="Velocity Vehicles (Km/h)")
-    levelCongestion = fields.Selection([(1,'Low'),(2,'Medium'),(3,'High')],string="Level of Congestion",compute="_getLevelCongestion")
+    levelCongestion = fields.Selection([
+        (1,'Low'),
+        (2,'Medium'),
+        (3,'High')],string="Level of Congestion",compute="_getLevelCongestion",store=True)
     perimeters = fields.Many2one('perimeter',string='Set of Points')
     line = fields.GeoLine('Power supply line', index=True)
 

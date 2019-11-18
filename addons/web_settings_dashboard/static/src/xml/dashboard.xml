@@ -98,7 +98,7 @@
             </div>
             <div class="row mt16">
                 <div class="col-6"><a href="https://wiki.urbos.io" aria-label="Wiki" title="Wiki"><i class="fa fa-wikipedia-w fa-4x"/></a></div>
-                <div class="col-6"><a href="https://osm.urbos.io" aria-label="OSM" title="OSM"><i class="fa fa-globe fa-4x"/></a></div>
+                <div class="col-6"><a href="https://www.urbos.io" aria-label="OSM" title="OSM"><i class="fa fa-globe fa-4x"/></a></div>
             </div>
             <hr/>
             <t t-set="server_version" t-value="widget.data.server_version"/>

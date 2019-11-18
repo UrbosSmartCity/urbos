@@ -26,10 +26,8 @@
         <form String="Temperature">
           <sheet>
             <group>
-              <field name="name"/>
               <field name="farenheitDegrees"/>
               <field name="levelTemperature"/>
-              <field name="point"/>
             </group>
             <notebook>
               <page string="Dot">
@@ -46,7 +44,6 @@
       <field name="name">Temperature</field>
       <field name="arch" type="xml">
         <geoengine>
-          <field name="name" select="1"/>
           <field name="farenheitDegrees"/>
           <field name="levelTemperature"/>
           <field name="point"/>

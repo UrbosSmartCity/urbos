@@ -4,14 +4,14 @@ from odoo import models, fields, api
 
 class Perimeter(models.Model):
     _name = 'perimeter'
-    _description = 'Perimeter'
+    _description = 'this is perimeter'
     _rec_name = 'noun'
 
     noun = fields.Char('Nombre', required=True)
     area = fields.GeoMultiPolygon('Area')
-    total_sensors = fields.Integer(compute='_total_sensors')
-    # point = fields.GeoPoint('Point')
-    @api.one
-    @api.depends('noun','area')
-    def _total_sensors(self):
-        self.total_sensors = 9
+    # total_sensors = fields.Integer(compute='_total_sensors')
+
+    # @api.one
+    # @api.depends('noun','area')
+    # def _total_sensors(self):
+        # self.total_sensors = 9

@@ -5,7 +5,7 @@
       <field name="name">Perimeter</field>
       <field name="res_model">perimeter</field>
       <field name="view_type">form</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,geoengine</field>
     </record>
 
     <record id="perimeter_tree_view" model="ir.ui.view">
@@ -45,7 +45,7 @@
         <geoengine version="7.0">
           <field name="noun"/>
           <field name="area"/>
-          <field name="total_sensors"/>
+          <!-- <field name="total_sensors"/> -->
         </geoengine>
       </field>
       <field eval="16" name="priority"/>
@@ -59,7 +59,7 @@
       <field name="attribute_field_id" ref="field_perimeter__noun"/>
       <field name="begin_color">#FF680A</field>
     </record>
-    <record id="geoengine_vector_layer_coloredrangetest0" model="geoengine.vector.layer">
+    <!-- <record id="geoengine_vector_layer_coloredrangetest0" model="geoengine.vector.layer">
       <field name="geo_field_id" ref="smart_city.field_perimeter__area"/>
       <field name="name">Colored range perimeter</field>
       <field name="classification">unique</field>
@@ -81,7 +81,7 @@
       <field name="attribute_field_id" ref="smart_city.field_perimeter__total_sensors"/>
       <field name="begin_color">#FF680A</field>
       <field name="end_color">#00680A</field>
-    </record>
+    </record> -->
     <record id="geoengine_raster_layer_test0" model="geoengine.raster.layer">
       <field name="raster_type">osm</field>
       <field name="name">Perimeter OSM</field>

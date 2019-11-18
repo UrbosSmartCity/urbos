@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','web','base_geoengine','web_responsive'],
+    'depends': ['base','web','base_geoengine','web_responsive','website'],
 
     # always loaded
     'data': [
@@ -34,6 +34,7 @@
         'views/templates.xml',
         'security/ir.model.access.csv',
         'views/SmartCityMenu.xml',
+        'views/Map.xml',
         'demo/demo.xml',
     ],
     # only loaded in demonstration mode

@@ -37,7 +37,6 @@
               <field name="o3"/>
               <field name="levelQuality"/>
               <field name="perimeters"/>
-              <field name="test"/>
             </group>
             <notebook>
               <page string="Dot">
