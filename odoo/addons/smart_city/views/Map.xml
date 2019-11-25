@@ -41,12 +41,13 @@
         <t name="Map" priority="50" t-name="smart_city.map">
           <t t-call="website.layout">
             <div id="map" class="map" tabindex="0"></div>
-            
+
             <div id="popup" class="ol-popup">
               <a href="#" id="popup-closer" class="ol-popup-closer"></a>
               <div id="popup-content"></div>
             </div>
 
+<!--
             <div id="menu">
               <ul>
                 <li>
@@ -65,6 +66,7 @@
                 </li>
               </ul>
           	</div>
+-->
 
 
             <script type="text/javascript" src="https://openlayers.org/en/latest/build/ol.js"></script>
