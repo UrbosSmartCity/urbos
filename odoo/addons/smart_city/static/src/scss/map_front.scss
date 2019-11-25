@@ -53,6 +53,13 @@
 }
 /**/
 /*Search*/
+.ol-search{
+  left: 0.5em;
+  right: auto;
+  top: 0.5em;
+  bottom: auto;
+}
+
 .ol-search ul {
 			color: #333;
 			font-size:0.85em;
@@ -69,7 +76,7 @@
 		}
 		.info a img {
 			height: 100px;
-			margin-right: .5em;
+			margin-right: 0.1em;
 			float: left;
 		}
 /**/
@@ -106,7 +113,8 @@
 			{	color: #fff;
 			}
 			.ol-zoom
-			{	left: auto;
+			{
+        left: auto;
 				right: 0.5em;
 				top: auto;
 				bottom: 0.5rem;

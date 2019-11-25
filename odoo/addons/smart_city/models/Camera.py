@@ -9,7 +9,6 @@ import tarfile
 import tensorflow as tf
 import zipfile
 import cv2
-import numpy as np
 import scipy
 import csv
 import time
@@ -24,7 +23,7 @@ from odoo.addons.smart_city.models.vehicle_counting_tensorflow.utils import visu
 from odoo.addons.smart_city.models.vehicle_counting_tensorflow.utils import label_map_util
 
 #comments on log
-# _logger = logging.getLogger(__name__)
+_logger = logging.getLogger(__name__)
 
 class Camera(models.Model):
     _name = 'camera'
@@ -36,6 +35,7 @@ class Camera(models.Model):
     model = fields.Selection([('hikvision','Hikvision')])
     url = fields.Char(string="Url",compute="_getUrl")
     perimeters = fields.Many2one('perimeter',string='Set of Points')
+    line = fields.GeoLine('Power supply line', index=True)
     img = fields = fields.Html('Image',compute="_getImg")
 
     @api.one
@@ -57,16 +57,19 @@ class Camera(models.Model):
 
     @api.multi
     def countVehicles(self):
-        allCameras = self.env['camera'].search([])
-        for camera in allCameras:
-            cant_vehicles = camera.get_cant_vehicles()
-            the_road = {
-                'channelWidth':'1',
-                'numberVehicles': cant_vehicles[0],
-                'vehiclesVelocity':'1',
-                'perimeters':'1'
-                }
-            user_id = self.env['roads'].sudo().create(the_road)
+        camerasArray = self.env['camera'].search([])
+        for allCameras in camerasArray:
+            for camera in allCameras:
+                cant_vehicles = camera.get_cant_vehicles()
+                congestion = {
+                    'channelWidth':'1',
+                    'numberVehicles': cant_vehicles[0],
+                    'vehiclesVelocity':'1',
+                    'perimeters':'1',
+                    'line': camera.line
+                    }
+                user_id = self.env['congestion'].sudo().create(congestion)
+
 
     @api.one
     def get_cant_vehicles(self):

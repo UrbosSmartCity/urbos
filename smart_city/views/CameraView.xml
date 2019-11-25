@@ -1,0 +1,45 @@
+<odoo>
+  <data>
+
+    <record id="Cameras" model="ir.actions.act_window">
+      <field name="name">Camera</field>
+      <field name="res_model">camera</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="camera_tree_view" model="ir.ui.view">
+      <field name="name">Camera Tree</field>
+      <field name="model">camera</field>
+      <field name="arch" type="xml">
+          <tree>
+            <field name="ip"/>
+            <field name="model"/>
+          </tree>
+      </field>
+    </record>
+
+    <record id="camera_form_view" model="ir.ui.view">
+      <field name="name">Camera Form</field>
+      <field name="model">camera</field>
+      <field name="arch" type="xml">
+          <form>
+            <group>
+              <field name="ip"/>
+              <field name="model"/>
+            </group>
+            <group>
+              <field name="user"/>
+              <field name="passw"/>
+              <field name="url"/>
+              <field name="perimeters"/>
+            </group>
+            <group>
+              <field name="img"/>
+            </group>
+          </form>
+      </field>
+    </record>
+
+  </data>
+</odoo>

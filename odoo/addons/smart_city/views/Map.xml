@@ -1,6 +1,7 @@
 <odoo>
   <data>
     <!-- Create a specific page layout -->
+<!--
     <record id="mapPage3d" model="ir.ui.view">
       <field name="name">Map3D</field>
       <field name="type">qweb</field>
@@ -30,7 +31,7 @@
       <field name="parent_id" ref="website.main_menu"/>
       <field name="sequence" type="int">60</field>
     </record>
-
+-->
     <!-- Create a specific page layout -->
     <record id="mapPage" model="ir.ui.view">
       <field name="name">Map</field>
@@ -40,6 +41,7 @@
         <t name="Map" priority="50" t-name="smart_city.map">
           <t t-call="website.layout">
             <div id="map" class="map" tabindex="0"></div>
+            
             <div id="popup" class="ol-popup">
               <a href="#" id="popup-closer" class="ol-popup-closer"></a>
               <div id="popup-content"></div>
@@ -63,6 +65,7 @@
                 </li>
               </ul>
           	</div>
+
 
             <script type="text/javascript" src="https://openlayers.org/en/latest/build/ol.js"></script>
             <script type="text/javascript" src="https://cdn.rawgit.com/Viglino/ol-ext/master/dist/ol-ext.min.js"></script>

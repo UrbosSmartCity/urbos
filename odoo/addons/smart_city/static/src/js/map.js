@@ -5,6 +5,7 @@ odoo.define('smart_city.olMap', function(require){
     var olMap = Class.extend({
       init: function(){
         self = this;
+        self.count = 0;
         self.olView = self.getView();
 
         //Get Vector Layers
@@ -33,8 +34,8 @@ odoo.define('smart_city.olMap', function(require){
         self.getLocation();
         self.getSeeker();
         self.getPopup();
-        self.getMenu();
-        self.startTraffic();
+        // self.getMenu();
+        // self.startTraffic();
         return self.map;
       },
       //Get OSM and Bing Tiles Server
@@ -345,36 +346,6 @@ odoo.define('smart_city.olMap', function(require){
             new ol.style.Style({
                 image: new ol.style.Icon({ src:"smart_city/static/data/car.png", scale: 0.8}),
             }),
-            //new
-            // new ol.style.Style({
-            //   image: new ol.style.FontSymbol({
-            //     form: "none", //"hexagone",
-            //     gradient: false,
-            //     glyph: "fa-automobile",//car[Math.floor(Math.random()*car.length)],
-            //     fontSize: 1,
-            //     fontStyle: "",
-            //     radius: 15,
-            //     //offsetX: -15,
-            //     rotation: 0,
-            //     rotateWithView: false,
-            //     offsetY: 0,
-            //     color: "red",
-            //     fill: new ol.style.Fill(
-            //     {	color: "navy"
-            //     }),
-            //     stroke: new ol.style.Stroke(
-            //     {	color: "white",
-            //       width: 3
-            //     })
-            //   }),
-            //   stroke: new ol.style.Stroke(
-            //   {	width: 2,
-            //     color: '#f80'
-            //   }),
-            //   fill: new ol.style.Fill(
-            //   {	color: [255, 136, 0, 0.6]
-            //   })
-            // }),
             //old
             new ol.style.Style({
               image: new ol.style.Shadow(
@@ -392,12 +363,64 @@ odoo.define('smart_city.olMap', function(require){
           ];
           return style;
         };
+        //new
+        // new ol.style.Style({
+        //   image: new ol.style.FontSymbol({
+        //     form: "none", //"hexagone",
+        //     gradient: false,
+        //     glyph: "fa-automobile",//car[Math.floor(Math.random()*car.length)],
+        //     fontSize: 1,
+        //     fontStyle: "",
+        //     radius: 15,
+        //     //offsetX: -15,
+        //     rotation: 0,
+        //     rotateWithView: false,
+        //     offsetY: 0,
+        //     color: "red",
+        //     fill: new ol.style.Fill(
+        //     {	color: "navy"
+        //     }),
+        //     stroke: new ol.style.Stroke(
+        //     {	color: "white",
+        //       width: 3
+        //     })
+        //   }),
+        //   stroke: new ol.style.Stroke(
+        //   {	width: 2,
+        //     color: '#f80'
+        //   }),
+        //   fill: new ol.style.Fill(
+        //   {	color: [255, 136, 0, 0.6]
+        //   })
+        // }),
 
       	var source = new ol.source.Vector({
           format: new ol.format.GeoJSON(),
-          url: 'https://geoserver.urbos.io/geoserver/Chile/wfs?service=WFS&version=1.0.0&request=GetFeature&typename=congestion&outputFormat=application/json&srsname=EPSG:3857',
-          projection:'EPSG:3857'
+          loader: function(extent, resolution, projection){
+            var proj = projection.getCode();
+            var url = 'https://geoserver.urbos.io/geoserver/Chile/wfs?service=WFS&'+
+            'version=1.0.0&request=GetFeature&typename=congestion&'+
+            'outputFormat=application/json&srsname='+proj+'&bbox=' + extent.join(',') + ',' + proj;
+            // console.log(extend.join(','));
+            var xhr = new XMLHttpRequest();
+           xhr.open('GET', url);
+           var onError = function() {
+             source.removeLoadedExtent(extent);
+           }
+           xhr.onerror = onError;
+           xhr.onload = function() {
+             if (xhr.status == 200) {
+               source.addFeatures(
+                   source.getFormat().readFeatures(xhr.responseText));
+             } else {
+               onError();
+             }
+           }
+           xhr.send();
+          },
+          strategy: ol.loadingstrategy.bbox,
         });
+        // projection:'EPSG:3857'
 
       	return new ol.layer.Vector(
       	{
@@ -486,7 +509,7 @@ odoo.define('smart_city.olMap', function(require){
       				easing: 'linear',
       				speed: 0.1,
                       revers: false,
-                      repeat: 9000
+                      repeat: 500
                   });
       			self.vectorTraffic.animateFeature ( f, anim );
       		  }

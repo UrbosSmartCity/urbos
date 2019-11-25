@@ -34,11 +34,59 @@
               <field name="url"/>
               <field name="perimeters"/>
             </group>
-            <group>
-              <field name="img"/>
-            </group>
+            <notebook>
+              <page string="Way">
+                <field name="line" widget="geo_edit_map"/>
+              </page>
+            </notebook>
+            <notebook>
+              <page string="Image">
+                <field name="img"/>
+              </page>
+            </notebook>
           </form>
       </field>
+    </record>
+
+    <!--GeoViews-->
+    <record id="ir_ui_view_camera" model="ir.ui.view">
+      <field name="name">Camera</field>
+      <field name="arch" type="xml">
+        <geoengine>
+          <field name="user"/>
+          <field name="passw"/>
+          <field name="url"/>
+          <field name="perimeters"/>
+          <field name="line"/>
+        </geoengine>
+      </field>
+      <field eval="15" name="priority"/>
+      <field name="model">camera</field>
+    </record>
+
+    <record id="geoengine_vector_layer_camera" model="geoengine.vector.layer">
+      <field name="geo_field_id" ref="smart_city.field_camera__line"/>
+      <field name="name">Congestion Basic Line</field>
+      <field eval="6" name="sequence"/>
+      <field name="view_id" ref="ir_ui_view_camera"/>
+      <field name="geo_repr">basic</field>
+      <field eval="1" name="nb_class"/>
+      <field name="begin_color">#FF680A</field>
+    </record>
+
+    <record id="geoengine_raster_layer_camera_osm" model="geoengine.raster.layer">
+      <field name="raster_type">osm</field>
+      <field name="name">Congestion Open Street Map</field>
+      <field name="view_id" ref="ir_ui_view_camera"/>
+      <field eval="0" name="overlay"/>
+    </record>
+
+    <record id="geoengine_raster_layer_camera_wms" model="geoengine.raster.layer">
+      <field name="raster_type">d_wms</field>
+      <field name="name">basic</field>
+      <field name="url">vmap0.tiles.osgeo.org/wms/vmap0</field>
+      <field name="view_id" ref="ir_ui_view_camera"/>
+      <field eval="1" name="overlay"/>
     </record>
 
   </data>

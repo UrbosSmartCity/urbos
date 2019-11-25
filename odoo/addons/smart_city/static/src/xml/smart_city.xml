@@ -11,7 +11,7 @@
     </t>
 
     <t t-name="ViewSmartTrafic">
-            <div id="windy" class="windy"></div>
+        <div id="windy" class="windy"></div>
     </t>
 
     <div t-name="MapView.error" class="o_view_nocontent" role="alert">

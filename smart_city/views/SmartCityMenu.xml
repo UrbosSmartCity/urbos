@@ -1,0 +1,25 @@
+<odoo>
+  <data>
+    <!--Menu Root-->
+    <menuitem id="smart" name="Smart City" web_icon="smart_city,static/description/icon.png" />
+
+    <!--Sub menus -->
+    <menuitem id="settings_smart" name="Settings" parent="smart" sequence="25"/>
+
+    <menuitem id="congestion" name="Congestion" parent="smart" sequence="10" action="Congestion"/>
+
+    <menuitem id="air_quality" name="Air Quality" parent="smart" action="AirQuality" sequence="9"/>
+
+    <menuitem id="temperature" name="Temperature" parent="smart" action="Temperature" sequence="12"/>
+
+    <menuitem id="wind_speed" name="Wind Speed" parent="smart" action="WindSpeed" sequence="15"/>
+
+    <!--Sub Menus of settings_smart-->
+    <menuitem id="perimeter_tree" name="Perimeters" parent="settings_smart" action="Perimeterss"/>
+
+    <menuitem id="points_tree" name="Points" parent="settings_smart" action="Pointss"/>
+
+    <menuitem id="camera_tree" name="Cameras" parent="settings_smart" action="Cameras"/>
+
+  </data>
+</odoo>

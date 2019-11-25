@@ -1,0 +1,87 @@
+<odoo>
+  <data>
+
+    <record id="WindSpeed" model="ir.actions.act_window">
+      <field name="name">Wind Speed</field>
+      <field name="res_model">wind_speed</field>
+      <field name="view_mode">tree,form,geoengine</field>
+    </record>
+
+    <record id="wS_tree_view" model="ir.ui.view">
+      <field name="name">Wind Speed</field>
+      <field name="model">wind_speed</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="id"/>
+          <field name="speed"/>
+          <field name="levelSpeed" widget="progressbar"/>
+        </tree>
+      </field>
+    </record>
+
+    <!--Form view-->
+
+    <record id="wind_form_view" model="ir.ui.view">
+      <field name="name">Wind Speed</field>
+      <field name="model">wind_speed</field>
+      <field name="arch" type="xml">
+        <form String="wind speed">
+          <sheet>
+            <group>
+              <field name="speed"/>
+              <field name="levelSpeed"/>
+              <field name="perimeters"/>
+            </group>
+            <notebook>
+              <page string="Dot">
+                <field name="point" widget="geo_edit_map"/>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+
+    <!--GeoViews-->
+
+    <record id="ir_ui_view_wind_speed" model="ir.ui.view">
+      <field name="name">Wind Speed</field>
+      <field name="arch" type="xml">
+        <geoengine>
+          <field name="speed" select="1"/>
+          <field name="levelSpeed"/>
+          <field name="point"/>
+        </geoengine>
+      </field>
+      <field eval="17" name="priority"/>
+      <field name="model">wind_speed</field>
+    </record>
+
+    <record id="geoengine_vector_layer_wind_speed_basic_point" model="geoengine.vector.layer">
+      <field name="geo_field_id" ref="smart_city.field_wind_speed__point"/>
+      <field name="name">Wind Speed</field>
+      <field eval="6" name="sequence"/>
+      <field name="view_id" ref="ir_ui_view_wind_speed"/>
+      <field name="geo_repr">basic</field>
+      <field eval="1" name="nb_class"/>
+      <field name="begin_color">#FF680A</field>
+    </record>
+
+    <record id="geoengine_raster_layer_wind_speed_osm" model="geoengine.raster.layer">
+      <field name="raster_type">osm</field>
+      <field name="name">Wind Speed OSM</field>
+      <field name="view_id" ref="ir_ui_view_wind_speed"/>
+      <field eval="0" name="overlay"/>
+    </record>
+
+    <record id="geoengine_raster_layer_wind_speed_wms" model="geoengine.raster.layer">
+      <field name="raster_type">d_wms</field>
+      <field name="name">basic</field>
+      <field name="url">vmap0.tiles.osgeo.org/wms/vmap0</field>
+      <field name="view_id" ref="ir_ui_view_wind_speed"/>
+      <field eval="1" name="overlay"/>
+    </record>
+
+  </data>
+</odoo>

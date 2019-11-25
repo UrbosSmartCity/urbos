@@ -23,7 +23,6 @@
     </xpath>
   </template>
 
-
   <template id="assets_frontend" inherit_id="web.assets_frontend">
     <xpath expr="//link[last()]" position="after">
       <link href="/smart_city/static/libs/ol-v6/ol.css" rel="stylesheet" type="text/css"/>
