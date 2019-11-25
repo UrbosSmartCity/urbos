@@ -13,4 +13,4 @@ class Users(models.Model):
         ('onboarding_ping', 'Onboarding ping'),
         ('idle', 'Idle'),
         ('disabled', 'Disabled'),
-    ], string="OdooBot Status", readonly=True, required=True, default="disabled")
+    ], string="OdooBot Status", readonly=True, required=True, default='disabled')
