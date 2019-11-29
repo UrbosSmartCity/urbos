@@ -1,0 +1,16 @@
+<odoo>
+
+  <template id="assets_end" inherit_id="web.assets_backend">
+
+    <xpath expr="//link[last()]" position="inside">
+      <link rel="stylesheet" href="/source_weather_map/static/src/css/notification.css"/>
+      <link rel="stylesheet" href="/source_weather_map/static/src/css/weather.css"/>
+    </xpath>
+
+    <xpath expr="//script[last()]" position="after">
+      <script type="text/javascript" src="/source_weather_map/static/src/js/weather_notification.js"/>
+    </xpath>
+
+  </template>
+
+</odoo>
